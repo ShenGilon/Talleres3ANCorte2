@@ -1,4 +1,4 @@
-package Guia1;
+package Guia1punto1;
 
 public class Nodo {
 
