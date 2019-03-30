@@ -6,14 +6,16 @@ public class Test1 {
 
         Nodo Cabeza = new Nodo();
         Nodo recorrer = Cabeza;
-        int contador = 2;
-        while (contador <= 10) {
+        int contador = 100;
+        while (contador <= 800) {
             recorrer.info = contador;
-            if (contador < 10) {
+            if (contador < 800) {
                 recorrer.siguiente = new Nodo();
             }
             recorrer = recorrer.siguiente;
-            contador += 2;
+            contador += 100;
+            if (contador == 700) contador += 50;
+            if (contador == 850) contador -= 50;
         }
         recorrer = Cabeza;
         while (recorrer != null) {
