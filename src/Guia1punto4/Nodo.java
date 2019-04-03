@@ -1,10 +1,11 @@
-
 package Guia1punto4;
 
 public class Nodo {
 
-    public int info;
-    public Nodo sig,ant;
-Public String Marca;
+    public String Marca;
+    public String Placa;
+    public String Dueño;
+    public String Color;
+    public Nodo sig, ant;
 
 }
