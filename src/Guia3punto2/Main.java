@@ -1,4 +1,4 @@
-package Guia3Punto2;
+package Guia3punto2;
 
 public class Main {
 
