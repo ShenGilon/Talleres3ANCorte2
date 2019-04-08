@@ -1,0 +1,10 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - Probador",
+      "request": "launch",
+      "mainClass": "ArrayList.Probador"
+    }
+  ]
+}
