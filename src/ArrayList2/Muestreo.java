@@ -23,8 +23,8 @@ public class Muestreo {
             fac.nHermanos = Leer.datoInt();
             System.out.println("Ingrese el número de hijos de la persona " + (i + 1));
             fac.nVendiciones = Leer.datoInt();
-            System.out.println("Ingrese el sexo de la persona " + (i + 1));
-            fac.sexo = Leer.dato();
+            System.out.println("Ingrese el sexo de la persona 1 (Mujer) - 2 (Hombre) " + (i + 1));
+            fac.sexo = Leer.datoInt();
             al.add(fac);
             System.out.println(""); 
         }
